@@ -13,7 +13,7 @@ I strongly recommend using VSCode, as that's what I'll be using for demonstratio
 
 I like VSCode because it has a bunch of helpful features and (optional) plugins which will make navigating this course a breeze. You can download VSCode here: https://code.visualstudio.com/download
 
-The first feature I recommend enabling is the `code .` feature. This will enable you to open VSCode from the command line by adding VSCode to your PATH (your PATH is an environmental variable that tells your computer where things are installed!).
+The first feature I recommend enabling is the `code .` feature. This will enable you to open VSCode from the command line by adding VSCode to your PATH (your PATH is an environment variable that tells your computer where things are installed!).
 1. Open VSCode
 2. Click `View` ❯ `Command Palette`
 3. Type `shell command` into the command palette to find `Shell Command: Install 'code' command in PATH` and click on it to install it.
