@@ -19,10 +19,10 @@ The first feature I recommend enabling is the `code .` feature. This will enable
 3. Type `shell command` into the command palette to find `Shell Command: Install 'code' command in PATH` and click on it to install it.
 
 ### Step 2: Create a GitHub Account
-If you already have an account, you can skip this step. If you're new to git, follow the instructions at https://github.com/signup.
+If you already have an account, you can skip this step. If you're new to Github, follow the instructions at https://github.com/signup.
 
 ### Step 3: Create a Personal Access Token
-Git made things a little more complicated with 2FA. We are going to create a Personal Access Token to try and avoid some permission/authentication errors. If you already have a Personal Access Token, you can skip this step.
+Github made things a little more complicated with 2FA. We are going to create a Personal Access Token to try and avoid some permission/authentication errors. If you already have a Personal Access Token, you can skip this step.
 1. Log in to Github
 2. Click on your profile picture in the top right corner ❯ `Settings`
 3. Click on `Developer Settings` located at the bottom of the menu on the left.
@@ -37,7 +37,7 @@ If Personal Access Tokens aren't working for you, or you want something more sec
  
 
 ### Step 4: Import the `cmpt221` Repository
-We're importing instead of forking because you cannot control the visibility (i.e. public/private) of a fork. I want you all to have the option to choose your privacy.
+We're importing instead of forking because you cannot control the visibility (i.e. public/private) of a forked repository. I want you all to have the option to choose your privacy.
 
 1. Go to https://github.com/profphip/cmpt221-tmp
 2. Click the `<code>` button and copy the [HTTPS URL](https://github.com/profphip/cmpt221-tmp.git) provided in the drop down box
@@ -48,13 +48,13 @@ We're importing instead of forking because you cannot control the visibility (i.
 
 ### Step 5: Add `profphip` as a Collaborator
 This allows me to see the activity going on in your repository, create issues, review PRs, etc even if your repository is private.
-1. Navigate to your forked  `cmpt221` repository
+1. Navigate to your `cmpt221` repository
 2. Click `settings` in the top menu bar
 3. In the top of the left sidebar, click `Collaborators`.
 4. Click `Add People` and type `profphip` into the text box. Click `Add profphip to this repository`
 
 ### Step 6: Clone your repository
-You've created your repository, but you don't have the code locally on your computer yet. Clone your repo by clicking the `<code>` button, and copying the HTTPS URL provided in the drop down box. Then, open your terminal, use the `cd /path/to/directory` command to go to the directory of your choosing on your computer (I created a `git` folder), and issue the `git clone` command to clone your repository to your computer.
+You've created your repository, but you don't have the code locally on your computer yet. Clone your repo by clicking the `<code>` button, and copying the HTTPS URL provided in the drop down box. Then, open your terminal, use the `cd /path/to/directory` command to go to the directory of your choosing on your computer (I created a `Github` folder), and issue the `git clone` command to clone your repository to your computer.
 ```bash
 # this can be wherever you want!
 cd /path/to/directory
@@ -69,7 +69,7 @@ Submitting an assignment in this class might be different than how you submit an
     # create a new branch and switch to it
     git checkout -b "<lab name>"
     ```
-2. Work on your lab in the branch. I recommend making multiple commits, and not one big one, but I'll leave the decision up to you. Just make sure you write up a somewhat detailed and/or entertaining commit message explaining what you're committing.
+2. Work on your lab in the newly created branch. When you're ready to commit and push your changes, write up a somewhat detailed and/or entertaining commit message explaining what you're committing. Please don't push your changes at once, rather, complete a section of the lab, then push those changes. You should have multiple commits for each lab.
     ```bash
     git add . 
     git commit -m "your message here"
